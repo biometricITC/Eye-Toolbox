@@ -1,0 +1,138 @@
+= Eye Toolbox Overview
+:showtitle:
+:sectnums:
+:revdate: 2019-03-25
+
+== Overview
+There are two general categories of eye scanners on the market today, divided by the wavelength of light used to take the image of the iris. It is expected that a sensor uses one or the other, but not both types of light when taking the image of the iris (though using both is not a barrier to testing). While there are also scanners that use the retina instead of the iris, this is not known to be used outside of fixed installations at this point and so are not included in the toolbox at this time.
+
+To handle potential eye sensors that rely on near-Infrared (NIR) or Infrared (IR) requires the use of a camera that can take pictures using these wavelengths. Some mobile devices may support this as a low-light mode (or come close to supporting it). There are cameras on the market which explicitly support night modes that can take images using the proper wavelengths for these types of sensors.
+
+== Eye Presentation Attacks
+All attacks are based on using a digital source directly, and not an already printed photo (that would then be scanned and printed again).
+
+=== Visible Light Attacks
+
+.Visible Light Attacks
+[%header,cols=".^1,.^3,.^6"]
+|===
+
+|No.
+|Source
+|Description
+
+|1
+|Mobile Device Camera Image
+|The target has taken a picture using the main Mobile Device camera and uploaded it to SNS/internet where it can be readily found and used as the basis of the PAI.
+
+|2
+|High Quality Camera Image
+|The target has a high quality facial picture uploaded to SNS/internet where it can be readily found and used as the basis of the PAI.
+
+|3
+|Mobile Device Video
+|The target has a low quality (i.e. mobile device quality) video of their face taken and posted to SNS/internet where it can be readily found and used as the basis of the PAI.
+
+|4
+|High Quality Video
+|The target has a high quality (i.e. dSLR or other high quality video recording) video of their face taken and posted to SNS/internet where it can be readily found and used as the basis of the PAI.
+
+|===
+
+=== Near-Infrared (NIR) or Infrared (IR) Light Attacks
+
+.NIR/IR Light Attacks
+[%header,cols=".^1,.^3,.^6"]
+|===
+
+|No.
+|Source
+|Description
+
+|1
+|Mobile Device Camera Night Image
+|The target has taken a picture using the main Mobile Device camera using the low light/night settings.
+
+|2
+|High Quality Camera Night Image
+|The target has a picture taken specifically in the night mode (this may be forced).
+
+|===
+
+== Eye Presentation Attack Detection
+Images captured by the TOE from the eye artefacts may visually look very similar to the images captured from a real human, however, they are not exactly the same. For example, printed or displayed images on the paper or screen reflect light in different ways because a human is a complex non-rigid 3D object, whereas the photo or screen can be seen as a planar rigid object. In addition, artefacts may contain moir  e patterns that are an undesired aliasing produced during various image display and image acquisition processes. The TOE can detect such differences between images taken from real human and artefacts to detect and prevent the presentation attacks.
+
+NIR/IR images are created from aspects that are hidden from the visible light spectrum, but may have similar properties to visible light images when creating artefacts. The images may contain moir  e patterns that are an undesired aliasing produced during various image display and image acquisition processes.
+
+== Common Test Protocol
+Eye PAD testing can be done in a variety of ways. The evaluator can use different type of cameras under different illumination to capture eye images of test users to create artefacts. The evaluator can also present these artefacts under different condition. It’s not possible to cover all such possible test scenarios and this toolbox defines the common test protocol to maintain consistency among different PAD testing but also enable to conduct the testing efficiently referring research papers. The evaluator shall follow the test protocols describe below, in addition to guidance provided in Toolbox Overview to conduct the PAD testing.
+
+The tools and media for the creation of artefacts are defined for all tests in the Eye Toolbox Inventory. Each attack specifies which tools and media are to be used in the creation of artefacts for that test.
+
+=== Image Recommendations
+Based on earlier work _[see Chaos Computer Club, 2015]_ the Evaluator should attempt to acquire images where the iris diameter is at least 75 pixels as the source. When creating printed photos, the photo should be printed to have an equivalent of 1200 DPI.
+
+Note that when tests require the use of the contact lenses, the printed image of the iris must batch the diameter of the contact lens for proper overlay.
+
+=== Enrolment Preparation - All Artefacts
+
+. Enrolment
+.. The evaluator shall turn on the eye unlock and enroll the test users following instructions provided by the AGD guidance (e.g. test users should not wear glasses during the enrolment if the guidance instructs not to do so).
+.. The evaluator shall enroll test users’ eyes under the controlled environment where the background of the scene is uniform, the light in the room is switched on and the window blinds are down (direct external lighting is blocked). 
+
+=== Visible Light - Photos and Video
+[start=2]
+. Eye image capture
+.. The evaluator shall capture eye images right after the enrolment of test users under the same condition to reduce the possibility that the artefacts are rejected because of the difference of illumination, background scene and expression.
+.. The evaluator shall capture test users’ eye images by normal and high quality cameras for printed and digital photo attack. The evaluator shall also record video of the user's face (with clear view of the eyes) for ten seconds for reply video attack.
+
+. Artefact creation
+.. The evaluator shall print eye images for printed photo attack, display them on a screen for digital photo attack and replay them on a screen for replay video attack. Size of face images on artefacts shall be same as the test user’s face (to get the correct size for the eye).
+
+. Artefact presentation
+.. The evaluator shall present artefacts to the TOE under the same controlled environment as used during enrolment.
+.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can’t see the edge of artefacts.
+.. The evaluator shall present artefacts in a way to minimize the reflection from ambient lighting.
+.. The evaluator shall present artefacts by hand for printed and digital photo attack to introduce some noticeable motion and by tripod for replay video attack.
+
+=== NIR/IR Light - Photos
+[start=2]
+. Eye image capture
+.. The evaluator shall capture eye images right after the enrolment of test users. The conditions for capture should be as close as possible to the enrolment conditions, but must be balanced with the requirements of the camera.
++
+For mobile device images this means taking the picture in low light (which may not be the best given the smallest amount of iris will be shown, so that must be balanced by the Evaluator). 
++
+For the camera with a night mode, this must be activated, preferably during daylight to get the best results.
+
+.. The evaluator shall capture test users’ eye images by normal and high quality cameras for printed photo attack.
+
+. Artefact creation
+.. The evaluator shall print eye images for printed photo attack. Size of face images on artefacts shall be same as the test user’s face (to get the correct size for the eye).
+
+. Artefact presentation
+.. The evaluator shall present artefacts to the TOE under the same controlled environment as used during enrolment.
+.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can’t see the edge of artefacts.
+.. The evaluator shall present artefacts in a way to minimize the reflection from ambient lighting.
+.. The evaluator shall present artefacts by hand for printed photo attack to introduce some noticeable motion.
+
+== Requirements for Tools
+The evaluator needs to use several tools, such as cameras, screens, printers and media that meet the specifications of the tools as this impacts the clarity or sharpness of face artefacts. For example, the quality of digital photo depends on the screen resolution. If the screen is 4K that refers to a horizontal screen resolution in the order of 4,000 pixels, and it can provide the finest clarity and detail of the face image.
+
+This toolbox defines two level of tools, normal and high quality (though not all tools have both levels), to cover variety of tools to conduct the PAD testing efficiently. 
+
+Normal quality tools are inexpensive, and anyone can use them easily to capture and upload (usually face) images to social media. The attacker can also create eye artefacts with such uploaded images without any difficulty. Presentation attacks using uploaded images is very easy and detail attack method is published on the Internet, so the evaluator shall try this type of artefacts first. 
+
+High quality tools have better performance (e.g. higher resolution) than normal quality tools and should be the latest tools (i.e. released at least within one year from the date of PAD testing, or as recent as possible depending on the type of device). Those tools may be expensive but can be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm normally shows good performance for artefacts used to train the algorithm, however less performance for ones the algorithm has never seen before. Also, attackers may try to create high-quality artifacts to maximize the chance of successful attacks. 
+
+The evaluator shall create such artefacts that can most likely bypass the PAD using the latest tools.
+
+== Test Items
+The evaluator shall create artefacts defined in all test items listed in the Eye Verification List. The Eye Verification List specifies the species types that must be created based on the type of biometric sensor.
+
+PAD Toolbox Overview defines required number of attempts for the independent testing and maximum timeframe for both independent and penetration testing.
+
+== Pass/Fail Criteria
+If Pass/Fail Criteria is defined in the test items the evaluator shall follow them, otherwise follow criteria defined in BIOSD and PAD Toolbox Overview.
+
+== Reference Information 
+The Eye Toolbox was created based on research papers listed in both the Face and Eye Toolbox References. The evaluator should read them before conducting the PAD testing because they include more detailed information about PAD test methods.

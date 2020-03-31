@@ -1,0 +1,190 @@
+= Attack Eye 05-01
+
+== Attack type
+Eye, mimicry printed photo attack
+
+=== Total Number of Species
+This attack has *2* species to be tested.
+
+== Overview
+The evaluator captures and prints target user's eye on the paper, then adds more materials to mimic an eye and present it to the TOE.
+
+== Input
+Target user’s eyes are open and iris is mostly visible
+
+== Tools
+*Contact Lens*
+
+* T.1b, Type 2
+* T.2, Type 1
+* M.1, Type 1
+* M.3, Type 1
+
+== Recipe
+. The evaluator shall capture the eye image and print it on a paper. 
+. The evaluator shall refer publicly available information to change default setting of the camera (e.g. image resolution) and printer (e.g. resolution) to create clearer eye artefacts.
+. The evaluator shall take at least three photos and select the best one to create each eye artefact.
+. The evaluator shall prepare the artefact with the specified materials.
+
+=== Contact Lens Recipe
+Using the contact lens requires that the eye photo be printed to scale so the contact properly covers the entire iris as it would when worn by a person. 
+
+== Variations
+=== Variation 1 (Eye 05-02)
+*Doll Eye*
+
+* T.1b, Type 2
+* T.2, Type 1
+* M.1, Type 1
+* M.3, Type 2
+
+=== Doll Eye Recipe
+The chosen artefact photo will be placed inside a fake eye (i.e. doll eye or similar sphere) and presented as close as possible to bend inside the surface. The evaluator should take care to minimize folding that may occur in the image.
+
+== Prerequisite
+The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers the multiple configurations for eye unlock, the same test should be done for all configurations.
+
+== Presentation
+The evaluator shall present a artefact by hand as described in the Eye Toolbox Overview.
+
+== Penetration Testing and Attack Potential Rating Suggestions
+=== Penetration Testing Suggestion
+The evaluator shall consider changing the following factors for penetration testing.
+
+* Configuration of tool
++
+The evaluator can change, for example, color effect of camera to change quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
+* Presentation method
++ 
+As described in BIOSD, the evaluator can change the distance between the artefact and the TOE. In addition to that, the evaluator can deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack).
+
+=== Attack Potential Rating Suggestion
+The attack potential that is required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
+
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+.Attack Potential Eye 05-01
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= one week
+|1
+|<= one day
+|0
+|1
+
+|*Expertise*
+|Layman
+|0
+|Proficient
+|3
+|3
+ 
+|*Knowledge of TOE*    
+|Public
+|0 
+|N/A
+|
+|0
+
+a|
+*Window of Opportunity*
+
+*(Access to TOE)* 
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|N/A
+|
+|Difficult
+|8
+|8
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+6+^.^|Total Attack Potential = 16 < Basic Attack Potential
+
+|===
+
+
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+.Attack Potential Eye 05-02
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= one week
+|1
+|<= one day
+|0
+|1
+
+|*Expertise*
+|Layman
+|0
+|Proficient
+|3
+|0
+ 
+|*Knowledge of TOE*    
+|Public
+|0 
+|N/A
+|
+|0
+
+a|
+*Window of Opportunity*
+
+*(Access to TOE)* 
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|N/A
+|
+|Difficult
+|8
+|8
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+6+^.^|Total Attack Potential = 16 < Basic Attack Potential
+
+|===
+
+== Pass Criteria
+There are no additional criteria other than defined in BIOSD and PAD Toolbox Overview.

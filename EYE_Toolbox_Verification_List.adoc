@@ -1,0 +1,65 @@
+= Mobile Toolbox for Eye Verification List
+:showtitle:
+:revdate: 2020-03-31
+
+This shows the set of attacks and applicability based on the sensor type used for Eye modalities.
+
+.Categories
+[%header,cols="2,4,1,1"]
+|===
+|No.
+|Name
+|Visible
+|IR/NIR
+
+|Eye 01-01
+|Eye, printed photo attack
+|X
+|
+
+|Eye 01-02
+|Eye, printed photo attack
+|X
+|
+
+|Eye 02-01
+|Eye, digital photo attack
+|X
+|
+
+|Eye 02-02
+|Eye, digital photo attack
+|X
+|
+
+|Eye 03-01
+|Eye, replay video attack
+|X
+|
+
+|Eye 03-02
+|Eye, replay video attack
+|X
+|
+
+|Eye 04-01
+|Eye, IR/NIR printed photo attack
+|
+|X
+
+|Eye 04-02
+|Eye, IR/NIR printed photo attack
+|
+|X
+
+|Eye 05-01
+|Eye, printed photo attack with contact lens
+|X
+|
+
+|Eye 05-02
+|Eye, printed photo attack with doll eye
+|X
+|
+
+|===
