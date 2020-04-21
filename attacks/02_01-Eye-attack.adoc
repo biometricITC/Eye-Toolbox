@@ -99,9 +99,9 @@ a|
 *(Access to Biometric Characteristics)* 
 |N/A
 |
-|Difficult
-|8
-|8
+|Non-cooperative
+|2
+|2
 
 |*Equipment*
 |Standard
@@ -110,7 +110,7 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 13 < Basic Attack Potential
+6+^.^|Total Attack Potential = 7 < Basic Attack Potential
 
 |===
 
@@ -162,9 +162,9 @@ a|
 *(Access to Biometric Characteristics)* 
 |N/A
 |
-|Difficult
-|8
-|8
+|Non-cooperative
+|2
+|2
 
 |*Equipment*
 |Standard
@@ -173,7 +173,7 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 13 < Basic Attack Potential
+6+^.^|Total Attack Potential = 7 < Basic Attack Potential
 
 |===
 

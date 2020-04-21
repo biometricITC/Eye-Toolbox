@@ -75,8 +75,8 @@ The attack potential that is required to build the artefacts are summarized in t
 |Layman
 |0
 |Proficient
-|3
-|3
+|2
+|2
  
 |*Knowledge of TOE*    
 |Public
@@ -101,9 +101,9 @@ a|
 *(Access to Biometric Characteristics)* 
 |N/A
 |
-|Difficult
-|8
-|8
+|Non-cooperative
+|2
+|2
 
 |*Equipment*
 |Standard
@@ -112,7 +112,7 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 16 < Basic Attack Potential
+6+^.^|Total Attack Potential = 9 < Basic Attack Potential
 
 |===
 
@@ -138,8 +138,8 @@ a|
 |Layman
 |0
 |Proficient
-|3
-|0
+|2
+|2
  
 |*Knowledge of TOE*    
 |Public
@@ -164,9 +164,9 @@ a|
 *(Access to Biometric Characteristics)* 
 |N/A
 |
-|Difficult
-|8
-|8
+|Non-cooperative
+|2
+|2
 
 |*Equipment*
 |Standard
@@ -175,7 +175,7 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 16 < Basic Attack Potential
+6+^.^|Total Attack Potential = 9 < Basic Attack Potential
 
 |===
 
