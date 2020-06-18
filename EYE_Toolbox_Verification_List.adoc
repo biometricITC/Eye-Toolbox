@@ -13,53 +13,53 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |IR/NIR
 
 |Eye 01-01
-|Eye, printed photo attack
+|link:01_01-Eye-attack.adoc[Eye, printed photo attack]
 |X
 |
 
 |Eye 01-02
-|Eye, printed photo attack
+|link:01_01-Eye-attack.adoc[Eye, printed photo attack (Variant of Eye 01-01)]
 |X
 |
 
 |Eye 02-01
-|Eye, digital photo attack
+|link:02_01-Eye-attack.adoc[Eye, digital photo attack]
 |X
 |
 
 |Eye 02-02
-|Eye, digital photo attack
+|link:02_01-Eye-attack.adoc[Eye, digital photo attack (Variant of Eye 02-01)]
 |X
 |
 
 |Eye 03-01
-|Eye, replay video attack
+|link:03_01-Eye-attack.adoc[Eye, replay video attack]
 |X
 |
 
 |Eye 03-02
-|Eye, replay video attack
+|link:03_01-Eye-attack.adoc[Eye, replay video attack (Variant of Eye 03-01)]
 |X
 |
 
 |Eye 04-01
-|Eye, IR/NIR printed photo attack
+|link:04_01-Eye-attack.adoc[Eye, IR/NIR printed photo attack]
 |
 |X
 
 |Eye 04-02
-|Eye, IR/NIR printed photo attack
+|link:04_01-Eye-attack.adoc[Eye, IR/NIR printed photo attack (Variant of Eye 04-01)]
 |
 |X
 
 |Eye 05-01
-|Eye, printed photo attack with contact lens
+|link:05_01-Eye-attack.adoc[Eye, IR/NIR printed photo attack with contact lens]
 |X
-|
+|X
 
 |Eye 05-02
-|Eye, printed photo attack with doll eye
+|link:05_01-Eye-attack.adoc[Eye, IR/NIR printed photo attack with doll eye (Variant of Eye 05-01)]
 |X
-|
+|X
 
 |===
