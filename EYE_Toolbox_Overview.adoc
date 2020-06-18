@@ -70,7 +70,7 @@ Eye PAD testing can be done in a variety of ways. The evaluator can use differen
 The tools and media for the creation of artefacts are defined for all tests in the Eye Toolbox Inventory. Each attack specifies which tools and media are to be used in the creation of artefacts for that test.
 
 === Image Recommendations
-Based on earlier work _[see Chaos Computer Club, 2015]_ the Evaluator should attempt to acquire images where the iris diameter is at least 75 pixels as the source. When creating printed photos, the photo should be printed to have an equivalent of 1200 DPI.
+Based on earlier work _[see [2] [Chaos Computer Club, 2015] in Eye Toolbox References]_ the Evaluator should attempt to acquire images where the iris diameter is at least 75 pixels as the source. When creating printed photos, the photo should be printed to have an equivalent of 1200 DPI.
 
 Note that when tests require the use of the contact lenses, the printed image of the iris must batch the diameter of the contact lens for proper overlay.
 

@@ -1,7 +1,7 @@
 = Attack Eye 05-01
 
 == Attack type
-Eye, mimicry printed photo attack
+Eye, IR/NIR printed photo attack with contact lens
 
 === Total Number of Species
 This attack has *2* species to be tested.
@@ -42,21 +42,21 @@ Using the contact lens requires that the eye photo be printed to scale so the co
 The chosen artefact photo will be placed inside a fake eye (i.e. doll eye or similar sphere) and presented as close as possible to bend inside the surface. The evaluator should take care to minimize folding that may occur in the image.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers the multiple configurations for eye unlock, the same test should be done for all configurations.
+The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers the multiple configurations for eye unlock, the same test shall be done for all configurations.
 
 == Presentation
 The evaluator shall present a artefact by hand as described in the Eye Toolbox Overview.
 
 == Penetration Testing and Attack Potential Rating Suggestions
 === Penetration Testing Suggestion
-The evaluator shall consider changing the following factors for penetration testing.
+The evaluator should consider changing the following factors for penetration testing.
 
 * Configuration of tool
 +
-The evaluator can change, for example, color effect of camera to change quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
+The evaluator may change, for example, color effect of camera to change quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
 * Presentation method
 + 
-As described in BIOSD, the evaluator can change the distance between the artefact and the TOE. In addition to that, the evaluator can deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack).
+As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. In addition to that, the evaluator may deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack).
 
 === Attack Potential Rating Suggestion
 The attack potential that is required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
