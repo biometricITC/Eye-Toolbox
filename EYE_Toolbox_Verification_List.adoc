@@ -58,7 +58,7 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |X
 
 |Eye 05-02
-|link:05_01-Eye-attack.adoc[Eye, IR/NIR printed photo attack with doll eye]
+|link:05_01-Eye-attack.adoc[Eye, IR/NIR printed photo attack with doll eye (Variant of Eye 05-01)]
 |X
 |X
 
