@@ -1,7 +1,7 @@
 = Attack Eye 05-01
 
 == Attack type
-Eye, mimicry printed photo attack
+Eye, IR/NIR printed photo attack with contact lens
 
 === Total Number of Species
 This attack has *2* species to be tested.
