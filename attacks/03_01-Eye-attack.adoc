@@ -7,10 +7,10 @@ Eye, replay video attack
 This attack has *2* species to be tested.
 
 == Overview
-The evaluator records and replays target user's eyes on a screen and present it to the TOE.
+The evaluator records and replays a target user's eyes on a screen and presents it to the TOE.
 
 == Input
-Target user’s eyes are open and iris is mostly visible
+Target user’s eyes are open and iris is mostly non-occluded.
 
 == Tools
 *Normal Quality*
@@ -21,7 +21,7 @@ Target user’s eyes are open and iris is mostly visible
 == Recipe
 . The evaluator shall capture a 10 second video of the eyes and display it on a screen. 
 
-. The evaluator shall refer publicly available information to change default setting of the camera (e.g. video resolution) to create clearer eye artefacts.
+. The evaluator shall refer to publicly available information to change default setting of the camera (e.g., video resolution) to create clearer eye artefacts.
 
 . The evaluator shall take at least three videos and select the best one to create each eye artefact.
 
@@ -33,7 +33,7 @@ Target user’s eyes are open and iris is mostly visible
 * M.2, Type 2
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers the multiple configurations for eye unlock, the same test shall be done for all configurations.
+The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers multiple configurations for eye unlock, the same test shall be performed for all configurations.
 
 == Presentation
 The evaluator shall present the screen by hand as described in the Eye Toolbox Overview.
@@ -44,7 +44,7 @@ The evaluator should consider changing the following factors for penetration tes
 
 * Configuration of tool
 +
-The evaluator may change, for example, color effect of camera to change quality of the videos. Such change may affect the texture of artefacts that may lead to false acceptance. 
+The evaluator may, for example, change color effects of the camera to change the quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
 * Presentation method
 + 
 As described in BIOSD, the evaluator may change the distance between the artefact and the TOE.

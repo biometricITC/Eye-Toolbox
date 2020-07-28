@@ -7,10 +7,10 @@ Eye, IR/NIR printed photo attack
 This attack has *2* species to be tested.
 
 == Overview
-The evaluator captures the target user's eye using night mode or IR/NIR from the camera, prints it on paper and presents it to the TOE.
+The evaluator captures a target user's eye using a camera's night mode or IR/NIR mode, prints it on paper, and presents it to the TOE.
 
 == Input
-Target user’s eyes are open and iris is mostly visible under circumstances where the night mode or IR/NIR mode can be used
+Target user’s eyes are open and iris is mostly non-occluded under circumstances where the camera's night mode or IR/NIR mode can be used.
 
 == Tools
 *Normal Quality*
@@ -20,8 +20,8 @@ Target user’s eyes are open and iris is mostly visible under circumstances whe
 * M.1, Type 1
 
 == Recipe
-. The evaluator shall capture the eye image using the night mode or IR/NIR function and print it on a paper. 
-. The evaluator shall refer publicly available information to change default setting of the camera (e.g. image resolution) and printer (e.g. resolution) to create clearer eye artefacts.
+. The evaluator shall capture the eye image using a camera's night mode or IR/NIR mode and print it on paper. 
+. The evaluator shall refer to publicly available information to change default setting of the camera (e.g., image resolution) and printer (e.g., output resolution) to create clearer eye artefacts.
 . The evaluator shall take at least three photos and select the best one to create each eye artefact.
 
 == Variations
@@ -32,10 +32,10 @@ Target user’s eyes are open and iris is mostly visible under circumstances whe
 * T.2, Type 1
 * M.1, Type 1
 
-Note that it is expected that net print services will not provide printing services using ink that may be necessary for IR/NIR attacks.
+Note that it is expected that professional print services will not provide printing services using types of ink that may be necessary for IR/NIR attacks.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers the multiple configurations for eye unlock, the same test shall be done for all configurations.
+The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers multiple configurations for eye unlock, the same test shall be performed for all configurations.
 
 == Presentation
 The evaluator shall present a printed photo by hand as described in the Eye Toolbox Overview.
@@ -46,10 +46,10 @@ The evaluator should consider changing the following factors for penetration tes
 
 * Configuration of tool
 +
-The evaluator may change, for example, color effect of camera to change quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
+The evaluator may, for example, change color effects of the camera to change the quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
 * Presentation method
 + 
-As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. In addition to that, the evaluator may deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack).
+As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. In addition, the evaluator may deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack).
 
 === Attack Potential Rating Suggestion
 The attack potential that is required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
