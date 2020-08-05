@@ -49,6 +49,8 @@ The evaluator may, for example, change color effects of the camera to change the
 + 
 As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. In addition, the evaluator may deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack).
 
+- Based on earlier work[2], the Evaluator should attempt to acquire images where the iris diameter is at least 75 pixels as the source. When creating printed photos, the photo should be printed to have an equivalent of 1200 DPI.
+
 === Attack Potential Rating Suggestion
 The attack potential that is required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
 
