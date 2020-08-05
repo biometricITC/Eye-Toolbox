@@ -22,19 +22,19 @@ All attacks are based on using a digital source directly, not a printed photo th
 |Description
 
 |1
-|Mobile Device Camera Image
+|Type 1 Camera Image
 |The target has taken a picture using the TOE's main camera and uploaded it to SNS/internet where it can be readily found and used as the basis of the PAI.
 
 |2
-|High Quality Camera Image
+|Type 2 Camera Image
 |The target has a high quality facial picture uploaded to SNS/internet where it can be readily found and used as the basis of the PAI.
 
 |3
-|Mobile Device Video
+|Type 1 Video
 |The target has a low quality (e.g., 480p) video of their face taken and posted to SNS/internet where it can be readily found and used as the basis of the PAI.
 
 |4
-|High Quality Video
+|Type 2 Video
 |The target has a high quality (e.g., 4K) video of their face taken and posted to SNS/internet where it can be readily found and used as the basis of the PAI.
 
 |===
@@ -50,11 +50,11 @@ All attacks are based on using a digital source directly, not a printed photo th
 |Description
 
 |1
-|Mobile Device Camera Night Image
+|Type 1 Night Image
 |The target has taken a picture using the TOE's main camera using low light/night settings.
 
 |2
-|High Quality Camera Night Image
+|Type 2 Night Image
 |The target has a picture taken specifically in night mode (this may be forced).
 
 |===
@@ -84,7 +84,7 @@ Note that when tests require the use of the contact lenses, the printed image of
 [start=2]
 . Eye image capture
 .. The evaluator shall capture eye images immediately after enrolment under identical conditions to reduce the possibility that the artefacts are rejected because of a difference in illumination, background scene, or expression.
-.. The evaluator shall capture test users’ eye images with normal and high quality cameras for printed and digital photo attack. The evaluator shall also record video of the user's face (with clear view of the eyes) for ten seconds for reply video attack.
+.. The evaluator shall capture test users’ eye images with Type 1 (i.e., "normal" quality) and Type 2 ("high" quality) cameras for printed and digital photo attack. The evaluator shall also record video of the user's face (with clear view of the eyes) for ten seconds for reply video attack.
 
 . Artefact creation
 .. The evaluator shall print eye images for printed photo attacks, display them on a screen for digital photo attacks, and replay them on a screen for replay video attacks. The size of face images on artefacts shall be same as the test user’s face (to achieve the correct size for the eye).
@@ -100,11 +100,11 @@ Note that when tests require the use of the contact lenses, the printed image of
 . Eye image capture
 .. The evaluator shall capture eye images immediately after the enrolment of test users. The conditions for capture should be as close as possible to the enrolment conditions, but must be balanced with the requirements of the camera.
 +
-For mobile device image,s this means taking the picture in low light, which may not be the best given the smallest amount of iris that will be shown.
+For mobile device images, this means taking the picture in low light, which may not be the best given the smallest amount of iris that will be shown.
 +
 For the camera with a night mode, this feature must be activated, preferably during daylight to get the best results.
 
-.. The evaluator shall capture test users’ eye images with normal and high quality cameras for printed photo attacks.
+.. The evaluator shall capture test users’ eye images with Type 1 and Type 2 cameras for printed photo attacks.
 
 . Artefact creation
 .. The evaluator shall print eye images for printed photo attacks. Size of face images on artefacts shall be same as the test user’s face (to achieve the correct size for the eye).
@@ -118,11 +118,11 @@ For the camera with a night mode, this feature must be activated, preferably dur
 == Requirements for Tools
 The evaluator needs to use several tools (e.g., cameras, screens, printers, and media), that meet the specifications listed below, since these specifications impact the clarity or sharpness of eye artefacts. For example, the quality of digital photos depends on the screen resolution. If the screen is 4K (i.e., a horizontal screen resolution in the order of 4,000 pixels), it can provide the finest clarity and detail of the eye image.
 
-This toolbox defines two level of tools--normal and high quality--to cover variety of tools to conduct the PAD testing efficiently. Not all tools have both levels.
+This toolbox defines two levels of tools--Type 1 and Type 2--to cover variety of tools to conduct the PAD testing efficiently. Not all tools have both levels.
 
-Normal quality tools are inexpensive and can be used by novices to capture and upload images to social media. An attacker may also create eye artefacts with such uploaded images without difficulty. Detailed attack methods using uploaded images have been published on the Internet, so the evaluator shall try this type of artefact first. 
+Type 1 tools are inexpensive and can be used by novices to capture and upload images to social media. An attacker may also create eye artefacts with such uploaded images without difficulty. Detailed attack methods using uploaded images have been published on the Internet, so the evaluator shall try this type of artefact first. 
 
-High quality tools have better performance (e.g., higher resolution) than normal quality tools.  Such tools should be the latest available (i.e., released at least within one year from the date of PAD testing, or as recent as possible depending on the type of device). Those tools may be expensive, but can be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks. 
+Type 2 tools have better performance (e.g., higher resolution) than Type 1 tools.  Such tools should be the latest available (i.e., released at least within one year from the date of PAD testing, or as recent as possible depending on the type of device). Those tools may be expensive, but can be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks. 
 
 The evaluator shall create such artefacts that with the highest likelihood of bypassing the PAD using the latest tools.
 
