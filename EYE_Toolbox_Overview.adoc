@@ -23,19 +23,19 @@ All attacks are based on using a digital source directly, not a printed photo th
 
 |1
 |Mobile Device Camera Image
-|The target has taken a picture using the TOE's main camera and uploaded it to SNS/internet where it can be readily found and used as the basis of the PAI.
+|The target has taken a picture using the TOE's main camera and uploaded it to a public internet source where it can be readily found and used as the basis of the PAI.
 
 |2
 |High Quality Camera Image
-|The target has a high quality facial picture uploaded to SNS/internet where it can be readily found and used as the basis of the PAI.
+|The target has a high quality facial picture uploaded to a public internet source where it can be readily found and used as the basis of the PAI.
 
 |3
 |Mobile Device Video
-|The target has a low quality (e.g., 480p) video of their face taken and posted to SNS/internet where it can be readily found and used as the basis of the PAI.
+|The target has a low quality (e.g., 480p) video of their face taken and posted to a public internet source where it can be readily found and used as the basis of the PAI.
 
 |4
 |High Quality Video
-|The target has a high quality (e.g., 4K) video of their face taken and posted to SNS/internet where it can be readily found and used as the basis of the PAI.
+|The target has a high quality (e.g., 4K) video of their face taken and posted to a public internet source where it can be readily found and used as the basis of the PAI.
 
 |===
 
@@ -120,7 +120,7 @@ The evaluator needs to use several tools (e.g., cameras, screens, printers, and 
 
 This toolbox defines two level of tools--normal and high quality--to cover variety of tools to conduct the PAD testing efficiently. Not all tools have both levels.
 
-Normal quality tools are inexpensive and can be used by novices to capture and upload images to social media. An attacker may also create eye artefacts with such uploaded images without difficulty. Detailed attack methods using uploaded images have been published on the Internet, so the evaluator shall try this type of artefact first. 
+Normal quality tools are inexpensive and can be used by novices to capture and upload images to a public internet source. An attacker may also create eye artefacts with such uploaded images without difficulty. Detailed attack methods using uploaded images have been published on the Internet, so the evaluator shall try this type of artefact first. 
 
 High quality tools have better performance (e.g., higher resolution) than normal quality tools.  Such tools shall be the latest available (i.e., released at least within one year from the date of PAD testing, or as recent as possible depending on the type of device). Those tools may be expensive, but can be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks. 
 
