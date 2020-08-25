@@ -7,10 +7,10 @@ Eye, IR/NIR printed photo attack with contact lens
 This attack has *2* species to be tested.
 
 == Overview
-The evaluator captures and prints target user's eye on the paper, then adds more materials to mimic an eye and present it to the TOE.
+The evaluator captures and prints a target user's eye on paper, then adds more materials to mimic an eye, and presents it to the TOE.
 
 == Input
-Target user’s eyes are open and iris is mostly visible
+Target user’s eyes are open and iris is mostly non-occluded.
 
 == Tools
 *Contact Lens*
@@ -22,12 +22,12 @@ Target user’s eyes are open and iris is mostly visible
 
 == Recipe
 . The evaluator shall capture the eye image and print it on a paper. 
-. The evaluator shall refer publicly available information to change default setting of the camera (e.g. image resolution) and printer (e.g. resolution) to create clearer eye artefacts.
+. The evaluator shall refer to publicly available information to change default setting of the camera (e.g., image resolution) and printer (e.g., output resolution) to create clearer eye artefacts.
 . The evaluator shall take at least three photos and select the best one to create each eye artefact.
 . The evaluator shall prepare the artefact with the specified materials.
 
 === Contact Lens Recipe
-Using the contact lens requires that the eye photo be printed to scale so the contact properly covers the entire iris as it would when worn by a person. 
+Using the contact lens requires that the eye photo be printed to scale so the contact properly covers the entire iris, as it would when worn by a person. 
 
 == Variations
 === Variation 1 (Eye 05-02)
@@ -39,10 +39,10 @@ Using the contact lens requires that the eye photo be printed to scale so the co
 * M.3, Type 2
 
 === Doll Eye Recipe
-The chosen artefact photo will be placed inside a fake eye (i.e. doll eye or similar sphere) and presented as close as possible to bend inside the surface. The evaluator should take care to minimize folding that may occur in the image.
+The chosen artefact photo will be placed inside a fake eye (e.g., doll eye or similar sphere) and presented as close as possible to bend inside the surface. The evaluator should take care to minimize folding that may occur in the image.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers the multiple configurations for eye unlock, the same test shall be done for all configurations.
+The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers multiple configurations for eye unlock, the same test shall be performed for all configurations.
 
 == Presentation
 The evaluator shall present a artefact by hand as described in the Eye Toolbox Overview.
@@ -53,7 +53,7 @@ The evaluator should consider changing the following factors for penetration tes
 
 * Configuration of tool
 +
-The evaluator may change, for example, color effect of camera to change quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
+The evaluator may, for example, change color effects of the camera to change the quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
 * Presentation method
 + 
 As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. In addition to that, the evaluator may deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack).

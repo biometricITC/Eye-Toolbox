@@ -5,18 +5,18 @@
 This document contains the inventory of tools and materials that are used in the context of the toolbox.
 
 == Overview
-This document specifies requirements for tools that are used to create eye image artefacts. There are two types of tools and media, Type 1 and Type 2. Not all tools or media may have both types. Generally, the evaluator shall create normal quality of eye artefacts using Type 1 tools and high quality face artefacts with Type 2 tools. The requirements for each tool are specified in the following tables.
+This document specifies requirements for tools that are used to create eye image artefacts. There are two types of tools and media: Type 1 and Type 2. Not all tools or media may have both types. Generally, the evaluator shall create "normal" quality eye artefacts using Type 1 tools and "high" quality face artefacts with Type 2 tools. The requirements for each tool are specified in the following tables.
 
-The evaluator may use any tools and media to create eye artefacts as long as they meet requirements specified below. The evaluator may use any available services (e.g. rental service) to prepare any tools in cost effective way.
+The evaluator may use any tools and media to create eye artefacts as long as they meet requirements specified below. The evaluator may use any available services (e.g., rental services) to prepare any tools in cost effective way.
 
 The evaluator may need to use other tools that are not specified here. 
 
 Some examples:
 
-* The evaluator may connect the camera to the TV directly to replay the eye image on the 4K screen
-* The camera video file could be imported to a PC from the camera and played directly from the 4K PC screen.
+* The evaluator may connect the camera to a TV directly to replay the eye image on a 4K screen
+* A camera video file could be imported to a PC from a camera and played directly from a 4K PC screen.
 +
-In such cases, the evaluator may use any PC and viewer software, however, the evaluator shall visually check the final image on the screen and if the evaluator sees any problem (e.g. choppy video playback because of weak CPU power), the evaluator shall replace them with right ones.  
+In such cases, the evaluator may use any PC and viewer software, however, the evaluator shall visually check the final image on the screen. If the evaluator sees any problem (e.g., choppy video playback because of an underpowered CPU), the evaluator shall replace the tools with an alternative that does not exhibit the problem. 
 
 == Tools Inventory
 .Tool Requirements
@@ -37,7 +37,7 @@ a|Rear-facing camera of a mobile device
 * Camera's resolution should be the same level or higher than the TOE's sensor used for eye biometric verification.
 a|dSLR camera
 
-* New dSLR shall be purchasable at the date of testing and the camera was released within 1 year from the date of testing.
+* New dSLR shall be purchasable at the date of testing and the camera was released within the previous 1 year period starting from the date of testing.
 * Camera's resolution shall be at least 3 times higher than the TOE's sensor used for eye biometric verification.
 
 |T.1b
@@ -50,13 +50,13 @@ a|dSLR camera
 a|Small Office/Home Office Inkjet printer 
 
 * New printer shall be purchasable at the date of testing.
-* Test user's face shall be printed on a paper in full scale.
+* Test user's face shall be printed on paper in full scale.
 * Special ink may be necessary for printing IR/NIR photos.
-a|Net print service
+a|Professional print service
 
-* Test user's face shall be printed on a paper in full scale.
-* The evaluator shall refer publicly available information to select the best one (e.g. quality comparison report for net print services). 
-* The evaluator shall follow recommendations from net print service (e.g. recommended image file size) to get the highest quality of photo print. 
+* Test user's face shall be printed on paper in full scale.
+* The evaluator shall refer to publicly available information to select the best service (e.g., quality comparison report of print services). 
+* The evaluator shall follow recommendations from the print service (e.g., recommended image file size) to get the highest quality photo print. 
 
 |===
 
@@ -76,12 +76,12 @@ a|Net print service
 |Paper
 a|Matte photo paper 
 
-* Paper shall be wide enough to include a test user's face in full scale.
+* Paper shall be wide enough to include a test user's face at full scale.
 
-a|Paper recommend by net print service selected
+a|Paper recommend by professional print service
 
-* Paper shall be wide enough to include a test user's face in full scale.
-* The evaluator shall select the best paper type to print the best quality of face images.
+* Paper shall be wide enough to include a test user's face at full scale.
+* The evaluator shall select the best paper type to print the best quality face images.
 
 |M.2
 |Screen              
@@ -91,12 +91,12 @@ a|Mobile device screen
 * Test user's eye shall be displayed or replayed on the screen in full scale.
 a|High resolution screen
 
-* The evaluator shall use the highest resolution screen that was released within 1 year from the date of testing.
+* The evaluator shall use the highest resolution screen that was released within the previous 1 year period starting from the date of testing.
 * Test user's face (eye) shall be displayed or replayed on the screen in full scale.
 
 |M.3
 |Eye Mimicry
 |Standard, non-colored contact lens with low prescription
-|A fake eye (such as a doll eye) that is open to the back with a clear opening for the iris (could be a hole or clear material)
+|A fake eye (e.g., doll eye) that is open to the back with a clear opening for the iris (could be a hole or clear material)
 
 |===
