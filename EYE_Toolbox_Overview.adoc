@@ -1,7 +1,7 @@
 = Eye Toolbox Overview
 :showtitle:
 :sectnums:
-:revdate: 2019-03-25
+:revdate: 2020-08-27
 
 == Overview
 There are two general categories of eye sensors on the market today, differentiated by the wavelength of light used to take an image of the iris. It is expected that a sensor uses one or the other--but not both--types of light when taking the image of the iris, though using both is not a barrier to testing. While there are also sensors that image the retina instead of the iris, this is not known to be used outside of fixed installations at this point and so are not included in the toolbox at this time.
