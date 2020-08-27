@@ -1,6 +1,6 @@
 = Eye Toolbox References
 :showtitle:
-:revdate: 2020-03-26
+:revdate: 2020-08-27
 
 [1] [Chaos Computer Club, 2017] Hacking the Samsung Galaxy S8 Irisscanner
 
@@ -13,3 +13,9 @@ https://www.theverge.com/circuitbreaker/2017/5/23/15680268/hacker-galaxy-s8-iris
 https://thehackernews.com/2015/03/iris-biometric-security-bypass.html
 
 https://www.forbes.com/sites/thomasbrewster/2015/03/05/clone-putins-eyes-using-google-images
+
+[3] [ISO/IEC 29794-6:2015] Information technology — Biometric sample quality — Part 6: Iris image data
+
+https://www.iso.org/standard/54066.html
+
+https://www.iso.org/obp/ui/#iso:std:iso-iec:29794:-6:ed-1:v1:en
