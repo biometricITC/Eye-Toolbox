@@ -33,7 +33,7 @@ Target user’s eyes are open and iris is mostly non-occluded.
 * M.2, Type 2
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers multiple configurations for eye unlock, the same test shall be performed for all configurations.
+The evaluator shall enrol test users first as described in the Eye Toolbox Overview. If the ST covers multiple configurations for eye unlock, the same test shall be performed for all configurations.
 
 == Presentation
 The evaluator shall present the screen by hand as described in the Eye Toolbox Overview.

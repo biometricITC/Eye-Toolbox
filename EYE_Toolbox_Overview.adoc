@@ -1,7 +1,7 @@
 = Eye Toolbox Overview
 :showtitle:
 :sectnums:
-:revdate: 2019-03-25
+:revdate: 2019-09-10
 
 == Overview
 There are two general categories of eye sensors on the market today, differentiated by the wavelength of light used to take an image of the iris. It is expected that a sensor uses one or the other--but not both--types of light when taking the image of the iris, though using both is not a barrier to testing. While there are also sensors that image the retina instead of the iris, this is not known to be used outside of fixed installations at this point and so are not included in the toolbox at this time.
@@ -77,8 +77,8 @@ Note that when tests require the use of the contact lenses, the printed image of
 === Enrolment Preparation - All Artefacts
 
 . Enrolment
-.. The evaluator shall enable eye unlock and enroll the test users following instructions provided by the AGD guidance (e.g., test users should not wear glasses during the enrolment if the guidance instructs not to do so).
-.. The evaluator shall enroll test users’ eyes under the controlled environment where the background of the scene is uniform, the light in the room is switched on, and the window blinds are down (i.e., direct external lighting is blocked). 
+.. The evaluator shall enable eye unlock and enrol the test users following instructions provided by the AGD guidance (e.g., test users should not wear glasses during the enrolment if the guidance instructs not to do so).
+.. The evaluator shall enrol test users’ eyes under the controlled environment where the background of the scene is uniform, the light in the room is switched on, and the window blinds are down (i.e., direct external lighting is blocked). 
 
 === Visible Light - Photos and Video
 [start=2]

@@ -42,7 +42,7 @@ Using the contact lens requires that the eye photo be printed to scale so the co
 The chosen artefact photo will be placed inside a fake eye (e.g., doll eye or similar sphere) and presented as close as possible to bend inside the surface. The evaluator should take care to minimize folding that may occur in the image.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Eye Toolbox Overview. If the ST covers multiple configurations for eye unlock, the same test shall be performed for all configurations.
+The evaluator shall enrol test users first as described in the Eye Toolbox Overview. If the ST covers multiple configurations for eye unlock, the same test shall be performed for all configurations.
 
 == Presentation
 The evaluator shall present a artefact by hand as described in the Eye Toolbox Overview.
