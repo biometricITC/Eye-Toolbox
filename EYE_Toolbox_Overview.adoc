@@ -116,9 +116,11 @@ For the camera with a night mode, this feature must be activated, preferably dur
 .. The evaluator shall present artefacts by hand for printed photo attack to introduce some noticeable motion.
 
 == Stored Artefact Usage
-If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing.
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing. Stored artefacts also have maximum ages based on the date of initial creation (weeks are used for consistent time periods). Stored artefacts can only be used up to the maximum age based on the time difference between the creation date and the use date (use must be completed before the maximum age allowed).
 
-The following table specifies the maximum amount of stored artefacts that can be used for each type. Note that contacts lenses cannot be stored outside of a wet environment and so cannot be left with the photos as a complete artefact.
+The following table specifies the maximum amount of stored artefacts that can be used for each type and the maximum age allowed for the artefacts to be used.
+
+Note that contacts lenses cannot be stored outside of a wet environment and so cannot be left with the photos as a complete artefact.
 
 [cols=".^3,.^2",options="header",]
 
@@ -126,12 +128,15 @@ The following table specifies the maximum amount of stored artefacts that can be
 
 |Artefact type
 |Max stored artefacts allowed
+|Max age of stored artefacts
 
 |Visible Light - Photos and Video
 |80%
+|52 weeks (1 year)
 
 |NIR/IR Light - Photos
 |80%
+|52 weeks (1 year)
 
 |===
 
