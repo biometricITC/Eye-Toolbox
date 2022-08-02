@@ -122,8 +122,7 @@ The following table specifies the maximum amount of stored artefacts that can be
 
 Note that contacts lenses cannot be stored outside of a wet environment and so cannot be left with the photos as a complete artefact.
 
-[cols=".^3,.^2",options="header",]
-
+[cols=".^3,.^2,.^2",options="header",]
 |===
 
 |Artefact type
