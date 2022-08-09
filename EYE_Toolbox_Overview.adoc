@@ -130,12 +130,20 @@ Note that contacts lenses cannot be stored outside of a wet environment and so c
 |Max age of stored artefacts
 
 |Visible Light - Photos and Video
-|80%
-|52 weeks (1 year)
+|None allowed
+|Not applicable
 
 |NIR/IR Light - Photos
-|80%
-|52 weeks (1 year)
+|None allowed
+|Not applicable
+
+|Fake eye photo
+|None allowed
+|Not applicable
+
+|Contact lenses
+|0% (Daily/single use contacts shall be used)
+|Not applicable
 
 |===
 
