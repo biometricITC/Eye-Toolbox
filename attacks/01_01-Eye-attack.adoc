@@ -63,11 +63,11 @@ The attack potential that is required to build the artefacts are summarized in t
 |Total
 
 |*Elapsed Time*
-|<= one week
-|1
-|<= one day
+|<= one hour
 |0
-|1
+|<= one day
+|3
+|3
 
 |*Expertise*
 |Layman
@@ -79,8 +79,8 @@ The attack potential that is required to build the artefacts are summarized in t
 |*Knowledge of TOE*    
 |Public
 |0 
-|N/A
-|
+|Public
+|0
 |0
 
 a|
@@ -97,9 +97,9 @@ a|
 *Window of Opportunity*
 
 *(Access to Biometric Characteristics)* 
-|N/A
-|
-|Non-cooperative
+|Without notice
+|0
+|Opportunistic Easy
 |2
 |2
 
@@ -110,7 +110,14 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 7 < Basic Attack Potential
+|*Degree of Scrutiny*
+|None
+|0 
+|None
+|0
+|0
+
+6+^.^|Total Attack Potential = 9 < Basic Attack Potential
 
 |===
 
@@ -126,11 +133,11 @@ a|
 |Total
 
 |*Elapsed Time*
-|<= one week
-|1
-|<= one day
+|<= one hour
 |0
-|1
+|<= one day
+|3
+|3
 
 |*Expertise*
 |Layman
@@ -142,8 +149,8 @@ a|
 |*Knowledge of TOE*    
 |Public
 |0 
-|N/A
-|
+|Public
+|0
 |0
 
 a|
@@ -160,9 +167,9 @@ a|
 *Window of Opportunity*
 
 *(Access to Biometric Characteristics)* 
-|N/A
-|
-|Non-cooperative
+|Without notice
+|0
+|Opportunistic Easy
 |2
 |2
 
@@ -173,7 +180,14 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 7 < Basic Attack Potential
+|*Degree of Scrutiny*
+|None
+|0 
+|None
+|0
+|0
+
+6+^.^|Total Attack Potential = 9 < Basic Attack Potential
 
 |===
 
