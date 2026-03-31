@@ -65,7 +65,7 @@ Images captured by the TOE of the eye artefacts may visually look very similar t
 NIR/IR images are created from aspects that are hidden from the visible light spectrum, but may have similar properties to visible light images when creating artefacts. These images may also contain moiré patterns that are an undesired aliasing produced during various image display and acquisition processes.
 
 == Common Test Protocol
-Eye PAD testing can be done in a variety of ways. The evaluator may use different types of cameras under different illuminations to capture eye images of test users to create artefacts. The evaluator may also present these artefacts under different conditions. It’s not possible to cover all such test scenarios. This toolbox defines a common test protocol to maintain consistency among different PAD testing environments. The evaluator shall follow the test protocols described below, in addition to guidance provided in Toolbox Overview, to conduct the PAD testing.
+Eye PAD testing can be done in a variety of ways. The evaluator may use different types of cameras under different illuminations to capture eye images of test users to create artefacts. The evaluator may also present these artefacts under different conditions. It's not possible to cover all such test scenarios. This toolbox defines a common test protocol to maintain consistency among different PAD testing environments. The evaluator shall follow the test protocols described below, in addition to guidance provided in Toolbox Overview, to conduct the PAD testing.
 
 The tools and media for the creation of artefacts are defined for all tests in the link:EYE_Toolbox_Inventory.adoc[Eye Toolbox Inventory]. Each attack specifies which tools and media are to be used in the creation of artefacts for that test.
 
@@ -78,20 +78,20 @@ Note that when tests require the use of the contact lenses, the printed image of
 
 . Enrolment
 .. The evaluator shall enable eye unlock and enrol the test users following instructions provided by the AGD guidance (e.g., test users should not wear glasses during the enrolment if the guidance instructs not to do so).
-.. The evaluator shall enrol test users’ eyes under the controlled environment where the background of the scene is uniform, the light in the room is switched on, and the window blinds are down (i.e., direct external lighting is blocked). 
+.. The evaluator shall enrol test users' eyes under the controlled environment where the background of the scene is uniform, the light in the room is switched on, and the window blinds are down (i.e., direct external lighting is blocked). 
 
 === Visible Light - Photos and Video
 [start=2]
 . Eye image capture
 .. The evaluator shall capture eye images immediately after enrolment under identical conditions to reduce the possibility that the artefacts are rejected because of a difference in illumination, background scene, or expression.
-.. The evaluator shall capture test users’ eye images with Type 1 (i.e., "normal" quality) and Type 2 ("high" quality) cameras for printed and digital photo attack. The evaluator shall also record video of the user's face (with clear view of the eyes) for ten seconds for reply video attack.
+.. The evaluator shall capture test users' eye images with Type 1 (i.e., "normal" quality) and Type 2 ("high" quality) cameras for printed and digital photo attack. The evaluator shall also record video of the user's face (with clear view of the eyes) for ten seconds for reply video attack.
 
 . Artefact creation
-.. The evaluator shall print eye images for printed photo attacks, display them on a screen for digital photo attacks, and replay them on a screen for replay video attacks. The size of face images on artefacts shall be same as the test user’s face (to achieve the correct size for the eye).
+.. The evaluator shall print eye images for printed photo attacks, display them on a screen for digital photo attacks, and replay them on a screen for replay video attacks. The size of face images on artefacts shall be same as the test user's face (to achieve the correct size for the eye).
 
 . Artefact presentation
 .. The evaluator shall present artefacts to the TOE under the identical controlled environment used during enrolment.
-.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can’t see the edge of artefacts.
+.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can't see the edge of artefacts.
 .. The evaluator shall present artefacts in a way to minimize reflection from ambient lighting.
 .. The evaluator shall present artefacts by hand for printed and digital photo attacks, introducing some noticeable motion, and by tripod for replay video attacks.
 
@@ -104,14 +104,14 @@ For mobile device images, this means taking the picture in low light, which may 
 +
 For the camera with a night mode, this feature must be activated, preferably during daylight to get the best results.
 
-.. The evaluator shall capture test users’ eye images with Type 1 and Type 2 cameras for printed photo attacks.
+.. The evaluator shall capture test users' eye images with Type 1 and Type 2 cameras for printed photo attacks.
 
 . Artefact creation
-.. The evaluator shall print eye images for printed photo attacks. Size of face images on artefacts shall be same as the test user’s face (to achieve the correct size for the eye).
+.. The evaluator shall print eye images for printed photo attacks. Size of face images on artefacts shall be same as the test user's face (to achieve the correct size for the eye).
 
 . Artefact presentation
 .. The evaluator shall present artefacts to the TOE under the identical controlled environment as used during enrolment.
-.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can’t see the edge of artefacts.
+.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can't see the edge of artefacts.
 .. The evaluator shall present artefacts in a way to minimize the reflection from ambient lighting.
 .. The evaluator shall present artefacts by hand for printed photo attack to introduce some noticeable motion.
 

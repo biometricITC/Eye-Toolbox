@@ -28,7 +28,7 @@ In such cases, the evaluator may use any PC and viewer software, however, the ev
 |Type 2
 
 
-|T.1a
+|EY1-T.1
 |Camera
 a|Rear-facing camera of a mobile device  
 
@@ -40,12 +40,12 @@ a|dSLR camera
 * New dSLR shall be purchasable at the date of testing and the camera was released within the previous 1 year period starting from the date of testing.
 * Camera's resolution shall be at least 3 times higher than the TOE's sensor used for eye biometric verification.
 
-|T.1b
+|EY1-T.2
 |Night-mode camera
 |T.1a camera in night/low light mode (could be mobile device or dSLR)
 |Camera with explicit night mode/NIR functionality
 
-|T.2
+|EY1-T.3
 |Printer             
 a|Small Office/Home Office Inkjet printer 
 
@@ -72,7 +72,7 @@ a|Professional print service
 |Type 1
 |Type 2 
 
-|M.1
+|EY1-M.1
 |Paper
 a|Matte photo paper 
 
@@ -83,7 +83,7 @@ a|Paper recommend by professional print service
 * Paper shall be wide enough to include a test user's face at full scale.
 * The evaluator shall select the best paper type to print the best quality face images.
 
-|M.2
+|EY1-M.2
 |Screen              
 a|Mobile device screen
 
@@ -94,7 +94,7 @@ a|High resolution screen
 * The evaluator shall use the highest resolution screen that was released within the previous 1 year period starting from the date of testing.
 * Test user's face (eye) shall be displayed or replayed on the screen in full scale.
 
-|M.3
+|EY1-M.3
 |Eye Mimicry
 |Standard, non-colored contact lens with low prescription
 |A fake eye (e.g., doll eye) that is open to the back with a clear opening for the iris (could be a hole or clear material)
