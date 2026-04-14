@@ -49,12 +49,14 @@ a|Camera
 
 |EY1-T.2
 |Night-mode camera
-|T.1a camera in night/low light mode (could be mobile device or dSLR)
+|EY1-T.1 camera in night/low light mode (could be mobile device, mirrorless or dSLR)
 |Camera with explicit night mode/NIR functionality
 
 |EY1-T.3
 |Photo Inkjet Printer or Service
 2+a|Either a photo-capable inkjet printer or a professional service may be used for printing the photos. Printer quality should meet quality expected from a service.
+
+* Special ink may be necessary for printing IR/NIR photos.
 
 For an Inkjet printer:
 
