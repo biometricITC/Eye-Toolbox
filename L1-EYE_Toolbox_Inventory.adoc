@@ -1,6 +1,6 @@
 = Eye Toolbox Inventory
 :showtitle:
-:revdate: 2020-03-26
+:revdate: 2026-03-31
 
 This document contains the inventory of tools and materials that are used in the context of the toolbox.
 
@@ -28,35 +28,50 @@ In such cases, the evaluator may use any PC and viewer software, however, the ev
 |Type 2
 
 
-|T.1a
+|EY1-T.1
 |Camera
-a|Rear-facing camera of a mobile device  
+a|Mobile device camera
+
+* A mobile device where the https://www.dxomark.com/smartphones/[Smartphone Camera score] is at least 130.
 
 * The evaluator shall not use the same mobile device on which the TOE is installed.
-* New mobile device shall be purchasable at the date of testing.
-* Camera's resolution should be the same level or higher than the TOE's sensor used for eye biometric verification.
-a|dSLR camera
+a|Camera
 
-* New dSLR shall be purchasable at the date of testing and the camera was released within the previous 1 year period starting from the date of testing.
-* Camera's resolution shall be at least 3 times higher than the TOE's sensor used for eye biometric verification.
+* A camera where the sensor meets the following measures (which can be found at https://www.dxomark.com/camera-sensors/)
+** Native ISO: &#8804; 100
+** Dynamic range at ISO 100: &#8805; 13 EV
+** Color depth at ISO 100: &#8805; 25.0 bits
+** Pixel count (in megapixels): &#8805; 30 MP
+** SNR 18% (SNR at 18% greyscale) at ISO 100: &#8805; 42 dB
+* A camera lens with the following https://www.dxomark.com/camera-lenses/[rankings]:
+** Overall score: &#8805; 30
+** Sharpness score: &#8805; 20
 
-|T.1b
+|EY1-T.2
 |Night-mode camera
-|T.1a camera in night/low light mode (could be mobile device or dSLR)
+|EY1-T.1 camera in night/low light mode (could be mobile device, mirrorless or dSLR)
 |Camera with explicit night mode/NIR functionality
 
-|T.2
-|Printer             
-a|Small Office/Home Office Inkjet printer 
+|EY1-T.3
+|Photo Inkjet Printer or Service
+2+a|Either a photo-capable inkjet printer or a professional service may be used for printing the photos. Printer quality should meet quality expected from a service.
 
-* New printer shall be purchasable at the date of testing.
-* Test user's face shall be printed on paper in full scale.
 * Special ink may be necessary for printing IR/NIR photos.
-a|Professional print service
+
+For an Inkjet printer:
+
+* A dedicated photo printer (not an all-in-one that also prints photos) no more than 5 years old.
+** The printer's resolution must be able to print at least 2400x1200 DPI.
+** OEM pigmented inks must be used.
+** Use "High" print quality settings.
+
+For all prints:
 
 * Test user's face shall be printed on paper in full scale.
-* The evaluator shall refer to publicly available information to select the best service (e.g., quality comparison report of print services). 
-* The evaluator shall follow recommendations from the print service (e.g., recommended image file size) to get the highest quality photo print. 
+* The evaluaor shall maintain the original aspect ratio during printing to avoid distortion of the face image.
+* The evaluator shall crop the face from the printed photo, as some devices might detect the non-matching background.
+* The evaluator shall refer to publicly available information to select the best one (e.g., quality comparison report for professional print services). 
+* The evaluator shall follow recommendations from the printer guidance or professional print service (e.g., recommended image file size) to get the highest quality of photo print. 
 
 |===
 
@@ -72,7 +87,7 @@ a|Professional print service
 |Type 1
 |Type 2 
 
-|M.1
+|EY1-M.1
 |Paper
 a|Matte photo paper 
 
@@ -83,7 +98,7 @@ a|Paper recommend by professional print service
 * Paper shall be wide enough to include a test user's face at full scale.
 * The evaluator shall select the best paper type to print the best quality face images.
 
-|M.2
+|EY1-M.2
 |Screen              
 a|Mobile device screen
 
@@ -94,7 +109,7 @@ a|High resolution screen
 * The evaluator shall use the highest resolution screen that was released within the previous 1 year period starting from the date of testing.
 * Test user's face (eye) shall be displayed or replayed on the screen in full scale.
 
-|M.3
+|EY1-M.3
 |Eye Mimicry
 |Standard, non-colored contact lens with low prescription
 |A fake eye (e.g., doll eye) that is open to the back with a clear opening for the iris (could be a hole or clear material)

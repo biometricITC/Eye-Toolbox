@@ -1,0 +1,65 @@
+= Mobile Toolbox for Eye Verification List
+:showtitle:
+:revdate: 2026-03-31
+
+This shows the set of attacks and applicability based on the sensor type used for Eye modalities.
+
+.Categories
+[%header,cols="2,4,1,1"]
+|===
+|No.
+|Name
+|Visible
+|IR/NIR
+
+|L1-Eye EY1-01-01
+|link:attacks/EY1-01-Eye_attack.adoc[Eye, printed photo attack]
+|X
+|
+
+|L1-Eye EY1-01-02
+|link:attacks/EY1-01-Eye_attack.adoc[Eye, printed photo attack]
+|X
+|
+
+|L1-Eye EY1-02-01
+|link:attacks/EY1-02-Eye_attack.adoc[Eye, digital photo attack]
+|X
+|
+
+|L1-Eye EY1-02-02
+|link:attacks/EY1-02-Eye_attack.adoc[Eye, digital photo attack]
+|X
+|
+
+|L1-Eye EY1-03-01
+|link:attacks/EY1-03-Eye_attack.adoc[Eye, replay video attack]
+|X
+|
+
+|L1-Eye EY1-03-02
+|link:attacks/EY1-03-Eye_attack.adoc[Eye, replay video attack]
+|X
+|
+
+|L1-Eye EY1-04-01
+|link:attacks/EY1-04-Eye_attack.adoc[Eye, IR/NIR printed photo attack]
+|
+|X
+
+|L1-Eye EY1-04-02
+|link:attacks/EY1-04-Eye_attack.adoc[Eye, IR/NIR printed photo attack]
+|
+|X
+
+|L1-Eye EY1-05-01
+|link:attacks/EY1-05-Eye_attack.adoc[Eye, IR/NIR printed photo attack with contact lens]
+|X
+|X
+
+|L1-Eye EY1-05-02
+|link:attacks/EY1-05-Eye_attack.adoc[Eye, IR/NIR printed photo attack with doll eye]
+|X
+|X
+
+|===
