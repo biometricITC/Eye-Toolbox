@@ -1,0 +1,130 @@
+= Attack L1-Eye EY1-04-xx
+
+== Attack type
+Eye, IR/NIR printed photo attack
+
+=== Total Number of Species
+This attack has *2* species to be tested.
+
+== Overview
+The evaluator captures a target user's eye using a camera's night mode or IR/NIR mode, prints it on paper, and presents it to the TOE.
+
+== Input
+Target user's eyes are open and iris is mostly non-occluded under circumstances where the camera's night mode or IR/NIR mode can be used.
+
+== Tools
+*Normal Quality*
+
+* EY1-T.2, Type 1
+* EY1-T.3
+* EY1-M.1, Type 1
+
+== Recipe
+. The evaluator shall capture the eye image using a camera's night mode or IR/NIR mode and print it on paper. 
+. The evaluator shall refer to publicly available information to change default setting of the camera (e.g., image resolution) and printer (e.g., output resolution) to create clearer eye artefacts.
+. The evaluator shall take at least three photos and select the best one to create each eye artefact.
+
+== Variations
+=== Variation 1 (L1-Eye EY1-04-02)
+*High Quality*
+
+* EY1-T.2, Type 2
+* EY1-T.3
+* EY1-M.1, Type 1
+
+Note that it is expected that professional print services will not provide printing services using types of ink that may be necessary for IR/NIR attacks.
+
+== Prerequisite
+The evaluator shall enrol test users first as described in the Eye Toolbox Overview. If the ST covers multiple configurations for eye unlock, the same test shall be performed for all configurations.
+
+== Presentation
+The evaluator shall present a printed photo by hand as described in the Eye Toolbox Overview.
+
+== Penetration Testing and Attack Potential Rating Suggestions
+=== Penetration Testing Suggestion
+The evaluator should consider changing the following factors for penetration testing.
+
+* Configuration of tool
++
+The evaluator may, for example, change color effects of the camera to change the quality of the images. Such change may affect the texture of artefacts that may lead to false acceptance. 
+* Presentation method
++ 
+As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. In addition, the evaluator may deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack).
+
+=== Attack Potential Rating Suggestion
+The attack potential that is required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
+
+Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the printed photo described in this attack. Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment. <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+
+*All Variations*
+
+.Calculated Attack Potential Eye attack EY1-04-xx
+[[calculatedtable]]
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= one day
+|1
+|<= one hour
+|0
+|1
+
+|*Expertise*
+|Layman
+|0
+|Proficient
+|2
+|2
+ 
+|*Knowledge of TOE*    
+|Public
+|0 
+|Public
+|0 
+|0
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|N/A
+|
+|Opportunistic Easy
+|2
+|2
+
+a|*Window of Opportunity*
+
+*(Access to TOE)* 
+|Easy
+|0
+|Moderate
+|4
+|4
+
+|*Degree of Scrutiny*
+|None
+|0 
+|None
+|0
+|0
+
+6+^.^|Total Attack Potential = 9 < Basic Attack Potential
+
+|===
+
+== Pass Criteria
+There are no additional criteria other than defined in BIOSD and PAD Toolbox Overview.
